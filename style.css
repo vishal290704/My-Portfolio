@@ -190,6 +190,7 @@ nav ul li a:hover::after{
     font-size: 13px;
     font-weight: 300;
     border-radius: 7px;
+    transition: background 0.5s, transform 0.5s;
 }
 .services-list div h2{
     font-size: 30px;
@@ -202,4 +203,12 @@ nav ul li a:hover::after{
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+}
+.services-list div p{
+    font-size:13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.services-list div:hover{
+    background: #ff004f;
+    transform: translate(-10px);
 }
