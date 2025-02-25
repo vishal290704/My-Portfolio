@@ -19,3 +19,19 @@
     function closemenu(){
         sidemenu.style.right = "-200px";
     }
+
+    // let name = document.getElementById("name-nav");
+    const myButton = document.getElementById("name-nav");
+    const NAV = document.getElementById("nav");
+
+// const toggleVisibility = () => {
+//   if (window.scrollY > 500) {
+//     myButton.classList.add("visible");
+//     NAV.style.backgroundColor = "black";
+//   } else {
+//     myButton.classList.remove("visible");
+//     NAV.style.backgroundColor = "transparent";
+//   }
+// };
+
+// window.addEventListener("scroll", toggleVisibility);

@@ -33,6 +33,7 @@ nav{
     flex-wrap: wrap;
     
 }
+
 nav ul{
     background-color: red;
     font-size: 22px;
@@ -98,7 +99,17 @@ nav ul li a:hover::after{
 }
 .header-text p{
     color: #ababab;
+    width: 18ch;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20) infinite alternate-reverse;
 }
+@keyframes typing{
+    from{
+        width: 0ch;
+    }
+}
+
 
 .header-text h1 span{
     color: #ff004f;
